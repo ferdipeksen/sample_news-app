@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    text-align: center;
+    background-image: url("we_coffee_default.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#main_part {
+    width: 700px;
+    margin: 20px auto;
+    border: black 5px solid;
+}
+#main_header {
+    background-color: white;
+    border-bottom: black 5px solid;
+
+}
+#main_menu {
+    background-color: white;
+    border-bottom: black 3px solid;
+}
+#main_menu li {
+    display: inline-block;
+    margin: 5px auto;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+}
+#main_menu input{
+    background-color: transparent;
+    margin: 5px;
+}
+#main_section {
+    background-color: white;
+}
+#main {
+    border-top: black 3px solid;
+    background-color: white;
+    font-size: medium;
+}
+.body_part {
+    display: flex;
+}
+.body_part div {
+    border: 3px black solid;
+}
+.part1 {
+    font-weight: bold;
+    font-size: large;
+    font-style: oblique;
+    background-color: white;
+}
+.part2 {
+    background-color: white;
+}
